@@ -1,0 +1,361 @@
+---------------------------------------------------------------
+[ 2021-01-22T03:57:58+08:00 ] 222.135.231.176 GET /qr/21.html
+[ info ] qr.zy13.net/qr/21.html [运行时间：0.140400s][吞吐率：7.12req/s] [内存消耗：1,972.43kb] [文件加载：48]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'qr.zy13.net',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 ChannelId(73) NebulaSDK/1.8.100112 Nebula PSDType(1) AlipayDefined(nt:4G,ws:320|504|2.0) AliApp(AP/10.1.30.300) AlipayClient/10.1.30.300 Alipay Language/zh-Hans',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 21 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-22T07:06:31+08:00 ] 171.13.14.48 GET /
+[ info ] qr.zy13.net/ [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：2,031.40kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1611244800 AND `time` < 1611270391 ) LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-22T07:06:32+08:00 ] 171.13.14.41 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,031.29kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Opera/9.80 (Windows NT 6.1 x64; U; en) Presto/2.7.62 Version/11.00',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1611244800 AND `time` < 1611270392 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-22T07:06:42+08:00 ] 36.110.211.2 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124801s][吞吐率：8.01req/s] [内存消耗：2,031.14kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => '',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1611244800 AND `time` < 1611270402 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-22T07:06:45+08:00 ] 180.163.220.125 GET /
+[ info ] qr.zy13.net/ [运行时间：0.093601s][吞吐率：10.68req/s] [内存消耗：2,032.06kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1611244800 AND `time` < 1611270405 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-22T10:01:42+08:00 ] 183.136.225.56 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,031.13kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1611244800 AND `time` < 1611280902 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-22T10:04:28+08:00 ] 223.153.197.65 GET /
+[ info ] qr.zy13.net/ [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,031.99kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1611244800 AND `time` < 1611281068 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-01-22T15:18:27+08:00 ] 101.66.91.146 GET /qr/19.html
+[ info ] qr.zy13.net/qr/19.html [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：1,972.65kb] [文件加载：48]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 ChannelId(73) NebulaSDK/1.8.100112 Nebula PSDType(1) AlipayDefined(nt:4G,ws:320|504|2.0) AliApp(AP/10.1.30.300) AlipayClient/10.1.30.300 Alipay Language/zh-Hans',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 19 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-22T18:59:35+08:00 ] 183.136.225.56 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124801s][吞吐率：8.01req/s] [内存消耗：2,031.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'user-agent' => 'Baiduspider+(+http://www.baidu.com/search/spider.htm);googlebot|baiduspider|baidu|spider|sogou|bingbot|bot|yahoo|soso|sosospider|360spider|youdaobot|jikeSpider;)',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1611244800 AND `time` < 1611313175 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-22T22:15:26+08:00 ] 61.158.146.179 GET /qr/21.html
+[ info ] qr.zy13.net/qr/21.html [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：1,973.08kb] [文件加载：48]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'x-mass-tappid' => '20000067',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 10; zh-CN; Redmi K20 Pro Build/QKQ1.190825.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/69.0.3497.100 UWS/3.22.1.73 Mobile Safari/537.36 UCBS/3.22.1.73_201208174214 NebulaSDK/1.8.100112 Nebula AlipayDefined(nt:WIFI,ws:393|0|2.75,ac:sp) AliApp(AP/10.2.10.7020) AlipayClient/10.2.10.7020 Language/zh-Hans useStatusBar/true isConcaveScreen/false Region/CN NebulaX/1.0.0 Ariver/1.0.0',
+  'upgrade-insecure-requests' => '1',
+  'x-requested-with' => 'com.eg.android.AlipayGphone',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '21',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031200s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 21 [ RunTime:0.000000s ]

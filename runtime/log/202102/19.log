@@ -1,0 +1,2848 @@
+---------------------------------------------------------------
+[ 2021-02-19T06:35:05+08:00 ] 101.133.211.182 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,029.81kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613687705 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T06:39:05+08:00 ] 66.249.72.253 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124801s][吞吐率：8.01req/s] [内存消耗：2,031.63kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.153 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'close',
+  'amp-cache-transform' => 'google;v="1..5"',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613687945 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T07:31:21+08:00 ] 116.179.32.232 GET /
+[ info ] qr.zy13.net/ [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：2,031.03kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (Linux;u;Android 4.2.2;zh-cn;) AppleWebKit/534.46 (KHTML,like Gecko) Version/5.1 Mobile Safari/10600.6.3 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613691081 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T08:33:24+08:00 ] 59.126.46.57 GET /qr/57.html
+[ info ] qr.zy13.net/qr/57.html [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,037.91kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '57',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 57 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T08:33:26+08:00 ] 59.126.46.57 GET /api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：1,821.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/57.html',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T08:33:27+08:00 ] 59.126.46.57 GET /api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,821.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/57.html',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T08:33:53+08:00 ] 101.89.19.197 GET /qr/57.html
+[ info ] qr.zy13.net/qr/57.html [运行时间：0.109201s][吞吐率：9.16req/s] [内存消耗：2,036.98kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '57',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qr.html [ array (
+  0 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 57 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T09:03:39+08:00 ] 223.153.234.40 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,032.30kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'x-requested-with' => 'com.huawei.search',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JSN-AL00 Build/HONORJSN-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613696619 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T09:03:39+08:00 ] 223.153.234.40 GET /
+[ info ] qr.zy13.net/ [运行时间：0.140400s][吞吐率：7.12req/s] [内存消耗：2,030.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 10; JSN-AL00 Build/HONORJSN-AL00)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613696619 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T09:44:40+08:00 ] 59.126.46.57 GET /api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：1,821.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/57.html',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T09:53:47+08:00 ] 59.126.46.57 GET /qr/57.html
+[ info ] qr.zy13.net/qr/57.html [运行时间：0.124801s][吞吐率：8.01req/s] [内存消耗：2,037.91kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '57',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 57 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T09:53:48+08:00 ] 59.126.46.57 GET /api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,821.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/57.html',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T09:53:50+08:00 ] 59.126.46.57 GET /api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C [运行时间：0.093601s][吞吐率：10.68req/s] [内存消耗：1,821.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/57.html',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T10:06:55+08:00 ] 59.126.46.57 GET /qr/57.html
+[ info ] qr.zy13.net/qr/57.html [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,037.91kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '57',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 57 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T10:06:56+08:00 ] 59.126.46.57 GET /api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,821.59kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/57.html',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T10:07:04+08:00 ] 59.126.46.57 GET /api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,821.56kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/57.html',
+  'accept-language' => 'zh-tw',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022c) NetType/WIFI Language/zh_TW',
+  'accept' => 'image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T11:55:58+08:00 ] 183.197.161.2 GET /qr/57.html
+[ info ] qr.zy13.net/qr/57.html [运行时间：0.140400s][吞吐率：7.12req/s] [内存消耗：1,972.38kb] [文件加载：48]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'x-mass-tappid' => '20000067',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 9; zh-CN; Redmi Note 8 Pro Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/69.0.3497.100 UWS/3.22.1.73 Mobile Safari/537.36 UCBS/3.22.1.73_201208174214 NebulaSDK/1.8.100112 Nebula AlipayDefined(nt:WIFI,ws:393|0|2.75) AliApp(AP/10.2.13.9020) AlipayClient/10.2.13.9020 Language/zh-Hans useStatusBar/true isConcaveScreen/true Region/CN NebulaX/1.0.0 Ariver/1.0.0',
+  'upgrade-insecure-requests' => '1',
+  'x-requested-with' => 'com.eg.android.AlipayGphone',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '57',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 57 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T13:31:05+08:00 ] 66.249.75.127 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,031.08kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613712665 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T13:39:50+08:00 ] 183.136.225.56 GET /
+[ info ] qr.zy13.net/ [运行时间：0.140401s][吞吐率：7.12req/s] [内存消耗：2,030.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613713190 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T14:07:01+08:00 ] 144.123.161.23 GET /qr/39.html
+[ info ] qr.zy13.net/qr/39.html [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,039.87kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mobileqq',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; Redmi Note 7 Pro Build/QKQ1.190915.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045514 Mobile Safari/537.36 V1_AND_SQ_8.5.5_1630_YYB_D N_8050523 PA QQ/8.5.5.5105 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/80 SimpleUISwitch/0 QQTheme/1000 InMagicWin/0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '39',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qq.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T14:07:02+08:00 ] 144.123.161.23 GET /api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQkK_MsggY97mO_gU%253D_xxx_sign%26u%3D2253592464%26n%3D%25E6%25A9%2598%25E5%25AD%2590%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%25EF%25BC%2588%25E5%2585%258D%25E8%25B4%25B9%25E6%2594%25B6%25E4%25BB%25A3%25E7%2590%2586%25EF%25BC%2589
+[ info ] qr.zy13.net/api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQkK_MsggY97mO_gU%253D_xxx_sign%26u%3D2253592464%26n%3D%25E6%25A9%2598%25E5%25AD%2590%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%25EF%25BC%2588%25E5%2585%258D%25E8%25B4%25B9%25E6%2594%25B6%25E4%25BB%25A3%25E7%2590%2586%25EF%25BC%2589 [运行时间：0.156000s][吞吐率：6.41req/s] [内存消耗：1,828.59kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/39.html',
+  'x-requested-with' => 'com.tencent.mobileqq',
+  'accept' => 'image/webp,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; Redmi Note 7 Pro Build/QKQ1.190915.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045514 Mobile Safari/537.36 V1_AND_SQ_8.5.5_1630_YYB_D N_8050523 PA QQ/8.5.5.5105 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/80 SimpleUISwitch/0 QQTheme/1000 InMagicWin/0',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQkK_MsggY97mO_gU%3D_xxx_sign&u=2253592464&n=%E6%A9%98%E5%AD%90%E5%B7%A5%E4%BD%9C%E5%AE%A4%EF%BC%88%E5%85%8D%E8%B4%B9%E6%94%B6%E4%BB%A3%E7%90%86%EF%BC%89',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T14:07:04+08:00 ] 144.123.161.23 GET /api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQkK_MsggY97mO_gU%253D_xxx_sign%26u%3D2253592464%26n%3D%25E6%25A9%2598%25E5%25AD%2590%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%25EF%25BC%2588%25E5%2585%258D%25E8%25B4%25B9%25E6%2594%25B6%25E4%25BB%25A3%25E7%2590%2586%25EF%25BC%2589
+[ info ] qr.zy13.net/api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQkK_MsggY97mO_gU%253D_xxx_sign%26u%3D2253592464%26n%3D%25E6%25A9%2598%25E5%25AD%2590%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%25EF%25BC%2588%25E5%2585%258D%25E8%25B4%25B9%25E6%2594%25B6%25E4%25BB%25A3%25E7%2590%2586%25EF%25BC%2589 [运行时间：0.156001s][吞吐率：6.41req/s] [内存消耗：1,825.77kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'AndroidSDK_29_violet_10',
+  'host' => 'qr.zy13.net',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQkK_MsggY97mO_gU%3D_xxx_sign&u=2253592464&n=%E6%A9%98%E5%AD%90%E5%B7%A5%E4%BD%9C%E5%AE%A4%EF%BC%88%E5%85%8D%E8%B4%B9%E6%94%B6%E4%BB%A3%E7%90%86%EF%BC%89',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T15:41:54+08:00 ] 110.88.206.42 GET /
+[ info ] qr.zy13.net/ [运行时间：0.140400s][吞吐率：7.12req/s] [内存消耗：2,032.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'x-requested-with' => 'com.baidu.searchbox',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; PCPM00 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/12.9 SP-engine/2.28.0 baiduboxapp/12.9.0.11 (Baidu; P1 10) NABar/1.0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613720514 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T16:28:55+08:00 ] 222.64.126.34 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,030.62kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.186 Safari/535.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613723335 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T16:42:01+08:00 ] 39.144.81.113 GET /
+[ info ] qr.zy13.net/ [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,032.47kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'x-ucbrowser-ua' => 'dv(TAS-AN00);pr(UCBrowser/13.2.7.1107);ov(Android 10);ss(360*780);pi(1080*2340);bt(YZ);pm(1);bv(1);nm(0);im(0);sr(0);nt(1);',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 10; zh-CN; TAS-AN00 Build/HUAWEITAS-AN00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 UCBrowser/13.2.7.1107 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613724121 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-02-19T17:21:39+08:00 ] 139.207.63.112 GET /qr/39.html
+[ info ] qr.zy13.net/qr/39.html [运行时间：0.109201s][吞吐率：9.16req/s] [内存消耗：2,039.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mobileqq',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045426 Mobile Safari/537.36 V1_AND_SQ_8.5.5_1630_YYB_D A_8050500 PA QQ/8.5.5.5105 NetType/4G WebP/0.3.0 Pixel/1080 StatusBarHeight/88 SimpleUISwitch/0 QQTheme/1000 InMagicWin/0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '39',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qq.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.015601s ]
+---------------------------------------------------------------
+[ 2021-02-19T17:21:40+08:00 ] 139.207.63.112 GET /api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQkK_MsggY97mO_gU%253D_xxx_sign%26u%3D2253592464%26n%3D%25E6%25A9%2598%25E5%25AD%2590%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%25EF%25BC%2588%25E5%2585%258D%25E8%25B4%25B9%25E6%2594%25B6%25E4%25BB%25A3%25E7%2590%2586%25EF%25BC%2589
+[ info ] qr.zy13.net/api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQkK_MsggY97mO_gU%253D_xxx_sign%26u%3D2253592464%26n%3D%25E6%25A9%2598%25E5%25AD%2590%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%25EF%25BC%2588%25E5%2585%258D%25E8%25B4%25B9%25E6%2594%25B6%25E4%25BB%25A3%25E7%2590%2586%25EF%25BC%2589 [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：1,828.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/39.html',
+  'x-requested-with' => 'com.tencent.mobileqq',
+  'accept' => 'image/webp,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; PAR-AL00 Build/HUAWEIPAR-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045426 Mobile Safari/537.36 V1_AND_SQ_8.5.5_1630_YYB_D A_8050500 PA QQ/8.5.5.5105 NetType/4G WebP/0.3.0 Pixel/1080 StatusBarHeight/88 SimpleUISwitch/0 QQTheme/1000 InMagicWin/0',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQkK_MsggY97mO_gU%3D_xxx_sign&u=2253592464&n=%E6%A9%98%E5%AD%90%E5%B7%A5%E4%BD%9C%E5%AE%A4%EF%BC%88%E5%85%8D%E8%B4%B9%E6%94%B6%E4%BB%A3%E7%90%86%EF%BC%89',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T17:21:55+08:00 ] 139.207.63.112 GET /api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQkK_MsggY97mO_gU%253D_xxx_sign%26u%3D2253592464%26n%3D%25E6%25A9%2598%25E5%25AD%2590%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%25EF%25BC%2588%25E5%2585%258D%25E8%25B4%25B9%25E6%2594%25B6%25E4%25BB%25A3%25E7%2590%2586%25EF%25BC%2589
+[ info ] qr.zy13.net/api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQkK_MsggY97mO_gU%253D_xxx_sign%26u%3D2253592464%26n%3D%25E6%25A9%2598%25E5%25AD%2590%25E5%25B7%25A5%25E4%25BD%259C%25E5%25AE%25A4%25EF%25BC%2588%25E5%2585%258D%25E8%25B4%25B9%25E6%2594%25B6%25E4%25BB%25A3%25E7%2590%2586%25EF%25BC%2589 [运行时间：0.140401s][吞吐率：7.12req/s] [内存消耗：1,825.74kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'AndroidSDK_28_HWPAR_9',
+  'host' => 'qr.zy13.net',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQkK_MsggY97mO_gU%3D_xxx_sign&u=2253592464&n=%E6%A9%98%E5%AD%90%E5%B7%A5%E4%BD%9C%E5%AE%A4%EF%BC%88%E5%85%8D%E8%B4%B9%E6%94%B6%E4%BB%A3%E7%90%86%EF%BC%89',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T17:23:34+08:00 ] 112.18.247.180 GET /
+[ info ] qr.zy13.net/ [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,032.07kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'com.android.browser',
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9.0; C900 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3364.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613726614 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T18:13:53+08:00 ] 106.47.80.235 GET /qr/57.html
+[ info ] qr.zy13.net/qr/57.html [运行时间：0.140400s][吞吐率：7.12req/s] [内存消耗：2,038.95kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/tpg,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1901A Build/P00610; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2759 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/8042 MicroMessenger/8.0.1.1841(0x28000159) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '57',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031200s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 57 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T18:13:53+08:00 ] 106.47.80.235 GET /api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,822.65kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/57.html',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/wxpic,image/tpg,image/wxpic,image/tpg,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1901A Build/P00610; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2759 MMWEBSDK/201201 Mobile Safari/537.36 MMWEBID/8042 MicroMessenger/8.0.1.1841(0x28000159) Process/toolsmp WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T18:14:41+08:00 ] 59.36.121.178 GET /qr/57.html
+[ info ] qr.zy13.net/qr/57.html [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,037.20kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'host' => 'qr.zy13.net',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML; like Gecko) Mobile/12F70 MicroMessenger/6.1.5 NetType/WIFI',
+)
+[ info ] [ PARAM ] array (
+  'id' => '57',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 57 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T18:24:30+08:00 ] 175.167.146.188 GET /qr/57.html
+[ info ] qr.zy13.net/qr/57.html [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,038.91kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; MI 8 Lite Build/QKQ1.190910.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/4215 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '57',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 57 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T18:24:30+08:00 ] 175.167.146.188 GET /api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,822.69kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/57.html',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; MI 8 Lite Build/QKQ1.190910.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/4215 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0rla5rfjV1__i_O9j1MU3R9lRh8_RWA4C',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T18:26:15+08:00 ] 101.91.62.11 GET /qr/1.html
+[ info ] qr.zy13.net/qr/1.html [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,037.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qq.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T18:27:18+08:00 ] 61.129.7.235 GET /qr/1.html
+[ info ] qr.zy13.net/qr/1.html [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,036.94kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qr.html [ array (
+  0 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T18:32:08+08:00 ] 121.224.106.135 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,032.53kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'x-requested-with' => 'com.tencent.mtt',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 10; zh-cn; HMA-AL00 Build/HUAWEIHMA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/11.2 Mobile Safari/537.36 COVC/045517',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613730728 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T18:33:08+08:00 ] 101.89.29.92 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,031.24kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-cn; OPPO R9s Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/38.0.0.0 Mobile Safari/537.36 OppoBrowser/4.2.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613730787 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T18:33:09+08:00 ] 101.227.139.171 GET /
+[ info ] qr.zy13.net/ [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,030.81kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko)     		Chrome/46.0.2490.11 Mobile Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613730789 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-02-19T19:05:45+08:00 ] 223.90.202.45 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,031.82kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-cn; OPPO A57 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.80 Mobile Safari/537.36 HeyTapBrowser/10.7.17.4',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613732745 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T19:50:14+08:00 ] 36.4.94.65 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,032.81kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'x-requested-with' => 'com.baidu.searchbox',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/12.9 SP-engine/2.28.0 baiduboxapp/12.9.0.11 (Baidu; P1 9) NABar/1.0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613735414 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T20:06:53+08:00 ] 123.133.104.132 GET /
+[ info ] qr.zy13.net/ [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,031.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613736413 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T20:22:40+08:00 ] 120.228.178.235 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124801s][吞吐率：8.01req/s] [内存消耗：2,031.91kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 10; zh-cn; Redmi K30 Build/QKQ1.190825.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.6.22',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613737360 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T20:23:53+08:00 ] 61.151.178.197 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,030.77kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613737433 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-02-19T21:10:07+08:00 ] 182.127.197.223 GET /qr/39.html
+[ info ] qr.zy13.net/qr/39.html [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,038.95kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1934A Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/2471 MicroMessenger/7.0.22.1820(0x2700163B) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '39',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T21:10:07+08:00 ] 182.127.197.223 GET /api.html?text=wxp://f2f0d8_xjUzDwdQnjsm1bkqAZ6OeokunqSGGoAWiF8QvTKU=
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0d8_xjUzDwdQnjsm1bkqAZ6OeokunqSGGoAWiF8QvTKU= [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,823.85kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/39.html',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; V1934A Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/2471 MicroMessenger/7.0.22.1820(0x2700163B) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0d8_xjUzDwdQnjsm1bkqAZ6OeokunqSGGoAWiF8QvTKU=',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T21:12:11+08:00 ] 113.96.232.116 GET /qr/39.html
+[ info ] qr.zy13.net/qr/39.html [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：2,037.30kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'host' => 'qr.zy13.net',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML; like Gecko) Mobile/12F70 MicroMessenger/6.1.5 NetType/WIFI',
+)
+[ info ] [ PARAM ] array (
+  'id' => '39',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T21:13:55+08:00 ] 113.96.232.116 GET /qr/39.html
+[ info ] qr.zy13.net/qr/39.html [运行时间：0.109201s][吞吐率：9.16req/s] [内存消耗：2,037.30kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'host' => 'qr.zy13.net',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML; like Gecko) Mobile/12F70 MicroMessenger/6.1.5 NetType/WIFI',
+)
+[ info ] [ PARAM ] array (
+  'id' => '39',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T21:15:14+08:00 ] 59.36.121.178 GET /qr/39.html
+[ info ] qr.zy13.net/qr/39.html [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,037.30kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'pragma' => 'no-cache',
+  'host' => 'qr.zy13.net',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML; like Gecko) Mobile/12F70 MicroMessenger/6.1.5 NetType/WIFI',
+)
+[ info ] [ PARAM ] array (
+  'id' => '39',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:06:05+08:00 ] 81.37.235.109 GET /
+[ info ] qr.zy13.net/ [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：2,031.69kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://blog.csdn.net/qq15577969/article/details/105181958',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613743565 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:06:29+08:00 ] 183.150.136.51 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,032.40kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613743589 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:08:49+08:00 ] 183.150.136.51 GET /
+[ info ] qr.zy13.net/ [运行时间：0.109201s][吞吐率：9.16req/s] [内存消耗：2,032.40kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613743729 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:11:36+08:00 ] 183.150.136.51 GET /
+[ info ] qr.zy13.net/ [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,032.40kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613743896 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:11:56+08:00 ] 183.150.136.51 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,032.40kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613743915 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:12:08+08:00 ] 183.150.136.51 POST /uploads/alipay.html
+[ info ] qr.zy13.net/uploads/alipay.html [运行时间：7.534814s][吞吐率：0.13req/s] [内存消耗：165,978.75kb] [文件加载：89]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'uploads',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4FaUd5Q88254oz9U',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://qr.zy13.net',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '260792',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'pay' => 'alipay',
+)
+[ info ] [ RUN ] app\index\controller\Index->uploads[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:12:25+08:00 ] 183.150.136.51 POST /uploads/alipay.html
+[ info ] qr.zy13.net/uploads/alipay.html [运行时间：7.222813s][吞吐率：0.14req/s] [内存消耗：165,978.75kb] [文件加载：89]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'uploads',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQBt91wTpUZvqBRYq',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://qr.zy13.net',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '260792',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'pay' => 'alipay',
+)
+[ info ] [ RUN ] app\index\controller\Index->uploads[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:12:33+08:00 ] 183.150.136.51 POST /uploads/qq.html
+[ info ] qr.zy13.net/uploads/qq.html [运行时间：3.026405s][吞吐率：0.33req/s] [内存消耗：3,395.14kb] [文件加载：89]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'uploads',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysHx9AaCowRBLZzbc',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://qr.zy13.net',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '50949',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'pay' => 'qq',
+)
+[ info ] [ RUN ] app\index\controller\Index->uploads[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:12:45+08:00 ] 183.150.136.51 POST /uploads/wechat.html
+[ info ] qr.zy13.net/uploads/wechat.html [运行时间：6.598812s][吞吐率：0.15req/s] [内存消耗：3,395.89kb] [文件加载：89]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'uploads',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryY5LhQ62RQ09yX1wF',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://qr.zy13.net',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '122253',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'pay' => 'wechat',
+)
+[ info ] [ RUN ] app\index\controller\Index->uploads[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:13:03+08:00 ] 183.150.136.51 POST /uploads/alipay.html
+[ info ] qr.zy13.net/uploads/alipay.html [运行时间：7.363213s][吞吐率：0.14req/s] [内存消耗：165,978.75kb] [文件加载：89]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'uploads',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5ORjKIZI3XCtaFTz',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://qr.zy13.net',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '260792',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'pay' => 'alipay',
+)
+[ info ] [ RUN ] app\index\controller\Index->uploads[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:13:24+08:00 ] 183.150.136.51 POST /uploads/alipay.html
+[ info ] qr.zy13.net/uploads/alipay.html [运行时间：8.112015s][吞吐率：0.12req/s] [内存消耗：165,978.75kb] [文件加载：89]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'uploads',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7Cwgms6KVGb3BbFd',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://qr.zy13.net',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '260792',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'pay' => 'alipay',
+)
+[ info ] [ RUN ] app\index\controller\Index->uploads[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:13:36+08:00 ] 183.150.136.51 POST /make.html
+[ info ] qr.zy13.net/make.html [运行时间：1.201202s][吞吐率：0.83req/s] [内存消耗：2,590.18kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'make',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://qr.zy13.net',
+  'accept' => '*/*',
+  'content-length' => '257',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'alipay' => '',
+  'qq' => 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQj-yPkwgYt42_gQY%3D_xxx_sign&u=2187589135&n=D',
+  'wechat' => 'wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs',
+  'name' => '啊哦',
+  'template' => '001',
+)
+[ info ] [ RUN ] app\index\controller\Index->make[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `qr_code` (`qr` , `alipay` , `qq` , `wechat` , `time` , `name` , `ip`) VALUES ('08c0633460e595edb01c37da84ce5e15.png' , '' , 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQj-yPkwgYt42_gQY%3D_xxx_sign&u=2187589135&n=D' , 'wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs' , 1613744015 , '啊哦' , '183.150.136.51') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:14:29+08:00 ] 58.251.121.186 GET /qr/59.html
+[ info ] qr.zy13.net/qr/59.html [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,037.81kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '59',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qq.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 59 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:14:29+08:00 ] 101.89.19.149 GET /qr/59.html
+[ info ] qr.zy13.net/qr/59.html [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,038.08kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; SM701 Build/SANFRANCISCO) AppleWebKit/533.1 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.4 TBS/025469 Mobile Safari/533.1 MicroMessenger/6.2.5.49_r7ead8bf.620 NetType/WIFI Language/zh_CN',
+  'referer' => '',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '59',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 59 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:14:29+08:00 ] 183.150.136.51 GET /qr/59.html
+[ info ] qr.zy13.net/qr/59.html [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,039.27kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mobileqq',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045514 Mobile Safari/537.36 V1_AND_SQ_8.5.5_1630_YYB_D A_8050500 PA QQ/8.5.5.5105 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/90 SimpleUISwitch/0 QQTheme/1000 InMagicWin/0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '59',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qq.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 59 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:14:30+08:00 ] 183.150.136.51 GET /api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQj-yPkwgYt42_gQY%253D_xxx_sign%26u%3D2187589135%26n%3DD
+[ info ] qr.zy13.net/api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQj-yPkwgYt42_gQY%253D_xxx_sign%26u%3D2187589135%26n%3DD [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：1,825.71kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/59.html',
+  'x-requested-with' => 'com.tencent.mobileqq',
+  'accept' => 'image/webp,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045514 Mobile Safari/537.36 V1_AND_SQ_8.5.5_1630_YYB_D A_8050500 PA QQ/8.5.5.5105 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/90 SimpleUISwitch/0 QQTheme/1000 InMagicWin/0',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQj-yPkwgYt42_gQY%3D_xxx_sign&u=2187589135&n=D',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:14:30+08:00 ] 101.89.19.149 GET /api.html?text=wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,821.60kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; SM701 Build/SANFRANCISCO) AppleWebKit/533.1 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.4 TBS/025469 Mobile Safari/533.1 MicroMessenger/6.2.5.49_r7ead8bf.620 NetType/WIFI Language/zh_CN',
+  'referer' => 'http://qr.zy13.net/qr/59.html',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:14:32+08:00 ] 183.150.136.51 GET /api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQj-yPkwgYt42_gQY%253D_xxx_sign%26u%3D2187589135%26n%3DD
+[ info ] qr.zy13.net/api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQj-yPkwgYt42_gQY%253D_xxx_sign%26u%3D2187589135%26n%3DD [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：1,823.13kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'AndroidSDK_28_HWINE_9',
+  'host' => 'qr.zy13.net',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQj-yPkwgYt42_gQY%3D_xxx_sign&u=2187589135&n=D',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:14:58+08:00 ] 183.150.136.51 GET /qr/59.html
+[ info ] qr.zy13.net/qr/59.html [运行时间：0.140400s][吞吐率：7.12req/s] [内存消耗：2,039.27kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mobileqq',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045514 Mobile Safari/537.36 V1_AND_SQ_8.5.5_1630_YYB_D A_8050500 PA QQ/8.5.5.5105 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/90 SimpleUISwitch/0 QQTheme/1000 InMagicWin/0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '59',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qq.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 59 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:14:59+08:00 ] 183.150.136.51 GET /api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQj-yPkwgYt42_gQY%253D_xxx_sign%26u%3D2187589135%26n%3DD
+[ info ] qr.zy13.net/api.html?text=https%3A%2F%2Fi.qianbao.qq.com%2Fwallet%2Fsqrcode.htm%3Fm%3Dtenpay%26f%3Dwallet%26a%3D1%26ac%3DCAEQj-yPkwgYt42_gQY%253D_xxx_sign%26u%3D2187589135%26n%3DD [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：1,825.70kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/59.html',
+  'x-requested-with' => 'com.tencent.mobileqq',
+  'accept' => 'image/webp,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045514 Mobile Safari/537.36 V1_AND_SQ_8.5.5_1630_YYB_D A_8050500 PA QQ/8.5.5.5105 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/90 SimpleUISwitch/0 QQTheme/1000 InMagicWin/0',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQj-yPkwgYt42_gQY%3D_xxx_sign&u=2187589135&n=D',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:15:31+08:00 ] 61.151.178.236 GET /qr/59.html
+[ info ] qr.zy13.net/qr/59.html [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,037.16kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko',
+)
+[ info ] [ PARAM ] array (
+  'id' => '59',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qr.html [ array (
+  0 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 59 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:15:32+08:00 ] 61.129.6.251 GET /qr/59.html
+[ info ] qr.zy13.net/qr/59.html [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,037.15kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://qr.zy13.net/qr/59.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => '59',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\qr.html [ array (
+  0 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 59 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:29:50+08:00 ] 81.37.235.109 GET /qr/59.html
+[ info ] qr.zy13.net/qr/59.html [运行时间：0.124801s][吞吐率：8.01req/s] [内存消耗：2,037.81kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022d) NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '59',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 59 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:29:50+08:00 ] 81.37.235.109 GET /api.html?text=wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：1,821.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/59.html',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.2(0x1800022d) NetType/WIFI Language/zh_CN',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:29:53+08:00 ] 183.150.136.51 GET /qr/59.html
+[ info ] qr.zy13.net/qr/59.html [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,038.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '59',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 59 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:29:53+08:00 ] 183.150.136.51 GET /api.html?text=wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs [运行时间：0.093601s][吞吐率：10.68req/s] [内存消耗：1,822.65kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/59.html',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:32:08+08:00 ] 183.150.136.51 GET /qr/59.html
+[ info ] qr.zy13.net/qr/59.html [运行时间：0.124800s][吞吐率：8.01req/s] [内存消耗：2,038.77kb] [文件加载：51]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'qr',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'id' => '59',
+)
+[ info ] [ RUN ] app\index\controller\Index->qr[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\wx.html [ array (
+  0 => 'pay_url',
+  1 => 'pay_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `qr_code` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `qr_code`  SET `number`=`number`+1  WHERE  `id` = 59 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:32:08+08:00 ] 183.150.136.51 GET /api.html?text=wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs
+[ info ] qr.zy13.net/api.html?text=wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs [运行时间：0.062400s][吞吐率：16.03req/s] [内存消耗：1,822.64kb] [文件加载：41]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'api',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/qr/59.html',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'image/webp,image/wxpic,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'text' => 'wxp://f2f0lcmQJRbe52HWfkz4MiTMLqZIi9GucBXs',
+)
+[ info ] [ RUN ] app\index\controller\Index->api[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:32:48+08:00 ] 183.150.136.51 GET /
+[ info ] qr.zy13.net/ [运行时间：0.093600s][吞吐率：10.68req/s] [内存消耗：2,032.40kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00 Build/HUAWEIINE-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045513 Mobile Safari/537.36 MMWEBID/9638 MicroMessenger/8.0.1.1841(0x28000159) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613745168 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:33:51+08:00 ] 183.150.136.51 GET /
+[ info ] qr.zy13.net/ [运行时间：0.124801s][吞吐率：8.01req/s] [内存消耗：2,031.71kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00; HMSCore 5.1.1.303; GMSCore 19.6.29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.7.303 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015601s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613745231 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-02-19T22:34:27+08:00 ] 183.150.136.51 POST /uploads/alipay.html
+[ info ] qr.zy13.net/uploads/alipay.html [运行时间：7.425613s][吞吐率：0.13req/s] [内存消耗：165,978.24kb] [文件加载：89]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'uploads',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/',
+  'origin' => 'http://qr.zy13.net',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryldVGlaVp6xegG1Jc',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00; HMSCore 5.1.1.303; GMSCore 19.6.29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.7.303 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '260792',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'pay' => 'alipay',
+)
+[ info ] [ RUN ] app\index\controller\Index->uploads[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T22:34:56+08:00 ] 183.150.136.51 POST /uploads/alipay.html
+[ info ] qr.zy13.net/uploads/alipay.html [运行时间：7.332013s][吞吐率：0.14req/s] [内存消耗：165,978.24kb] [文件加载：89]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'uploads',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://qr.zy13.net/',
+  'origin' => 'http://qr.zy13.net',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWBnctIXk5Hgq2M3A',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; INE-AL00; HMSCore 5.1.1.303; GMSCore 19.6.29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.7.303 Mobile Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '260792',
+  'connection' => 'close',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+  'pay' => 'alipay',
+)
+[ info ] [ RUN ] app\index\controller\Index->uploads[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-19T23:04:03+08:00 ] 112.13.96.187 GET /
+[ info ] qr.zy13.net/ [运行时间：0.109200s][吞吐率：9.16req/s] [内存消耗：2,031.24kb] [文件加载：50]
+[ info ] [ LANG ] D:\wwwroot\qr\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36',
+  'host' => 'qr.zy13.net',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wwwroot\qr\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wwwroot\qr\public/../application/index\view\index\index.html [ array (
+  0 => 'count',
+  1 => 'total',
+  2 => 'number',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qr_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` WHERE  ( `time` > 1613664000 AND `time` < 1613747043 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qr_code` LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `qr_code` LIMIT 1 [ RunTime:0.000000s ]

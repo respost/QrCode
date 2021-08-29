@@ -1,0 +1,326 @@
+---------------------------------------------------------------
+[ 2021-01-06T01:19:36+08:00 ] 119.3.119.18 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609867176 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T01:20:15+08:00 ] 119.3.119.18 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609867215 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T08:10:32+08:00 ] 42.90.143.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031200s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609891832 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T08:11:10+08:00 ] 180.163.220.3 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609891870 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T08:11:10+08:00 ] 180.163.220.67 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609891870 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T09:12:18+08:00 ] 223.104.219.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609895538 ) LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T09:12:22+08:00 ] 223.104.219.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015601s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609895542 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:12:29+08:00 ] 14.17.70.179 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609899149 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:12:29+08:00 ] 14.17.70.179 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609899149 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:12:29+08:00 ] 14.17.70.179 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015601s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609899149 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:17:20+08:00 ] 203.208.60.59 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609899440 ) LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:22:53+08:00 ] 117.136.30.221 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609899773 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:23:08+08:00 ] 113.249.215.236 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609899788 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:25:26+08:00 ] 113.249.215.236 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609899925 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:27:13+08:00 ] 113.249.215.236 POST /make.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] INSERT INTO `gy_code` (`qr` , `alipay` , `qq` , `wechat` , `time` , `name` , `ip`) VALUES ('eb185d86464fe65ef1099b18244fcd30.png' , 'https://qr.alipay.com/fkx08563738xpv1enll8k15' , 'https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&a=1&u=541303715&ac=CAEQo8eOggIYob7U_wU%3D_xxx_sign&n=%E8%BE%89%E5%A4%9C&f=wallet' , 'wxp://f2f0dOrcsbzmgQ6_DDsz9gJoJOjyOHh2Wu_Sgsxh1lARN3M=' , 1609900032 , '量子收款码' , '113.249.215.236') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:27:29+08:00 ] 117.136.30.221 GET /qr/47.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031200s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 47 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:33:29+08:00 ] 61.129.8.179 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609900409 ) LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T10:38:03+08:00 ] 61.129.6.151 GET /qr/47.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 47 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-01-06T11:55:44+08:00 ] 223.116.146.7 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T11:56:02+08:00 ] 223.116.146.7 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T12:06:00+08:00 ] 61.129.6.225 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031201s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T13:47:15+08:00 ] 223.104.240.50 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609912035 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T14:54:06+08:00 ] 36.43.85.215 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609916046 ) LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T14:54:09+08:00 ] 36.43.85.215 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609916049 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T15:46:21+08:00 ] 223.104.27.192 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015601s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609919181 ) LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T16:16:35+08:00 ] 153.0.4.192 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609920995 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T16:39:21+08:00 ] 117.132.183.17 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609922361 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T16:46:22+08:00 ] 117.132.183.17 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609922782 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T17:57:25+08:00 ] 139.214.251.153 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031200s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T17:57:56+08:00 ] 139.214.251.153 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-01-06T18:06:52+08:00 ] 101.89.239.230 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T18:47:00+08:00 ] 223.67.254.251 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T18:58:07+08:00 ] 122.96.40.218 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T18:58:26+08:00 ] 122.96.40.218 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T18:58:34+08:00 ] 122.96.40.218 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-01-06T20:02:19+08:00 ] 116.171.246.34 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609934539 ) LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T21:41:28+08:00 ] 121.33.238.148 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609940488 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T22:19:04+08:00 ] 61.158.208.98 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609942744 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-01-06T22:21:15+08:00 ] 52.162.211.179 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609942875 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T22:21:19+08:00 ] 121.234.33.9 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` WHERE  ( `time` > 1609862400 AND `time` < 1609942879 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `gy_code` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT SUM(number) AS tp_sum FROM `gy_code` LIMIT 1 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:13:20+08:00 ] 59.36.119.227 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:13:43+08:00 ] 223.104.20.91 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:20:21+08:00 ] 101.91.60.109 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:24:53+08:00 ] 223.104.147.234 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:25:37+08:00 ] 122.194.247.22 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:27:37+08:00 ] 113.96.232.116 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:29:00+08:00 ] 113.96.232.116 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:29:30+08:00 ] 101.89.29.92 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:29:55+08:00 ] 113.96.232.116 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.015600s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2021-01-06T23:34:18+08:00 ] 61.158.146.213 GET /qr/39.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:host=127.0.0.1;port=3306;dbname=pay_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gy_code` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `gy_code` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gy_code`  SET `number`=`number`+1  WHERE  `id` = 39 [ RunTime:0.000000s ]

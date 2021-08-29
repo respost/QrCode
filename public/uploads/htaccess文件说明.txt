@@ -1,0 +1,7 @@
+<Files ~ ".php">
+Order allow,deny
+Deny from all
+</Files>
+
+这几行代码禁止运行php文件
+禁止上传目录运行php等可执行文件可以从一定程度上增加网站的安全性
